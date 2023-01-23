@@ -314,7 +314,7 @@ def cnn(data, labels, epochs, learning_rate, batch_size, early_stop = 4):
 
             loss = cross_entropy_loss(batch_preds, batch_obs) + L2_loss_pen(0.01, weigths)
             
-            n_loss_rise += 1 if loss > prev_loss else n_loss_rise
+            n_loss_rise += 1 if loss >= prev_loss else n_loss_rise
             if n_loss_rise >= early_stop:
                 return (epoch_hist, loss_hist, acc_hist)
             
