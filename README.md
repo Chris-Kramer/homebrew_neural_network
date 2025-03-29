@@ -4,5 +4,5 @@ However, for visualization and for datawrangling, I did use pandas and matplotli
 - **cnn.py:** This is the implementation of a convolutional neural network.
 - **feed_forward.py:** This is the implementation of a feed forward network.
 
-Note that this neural network is not meant to have high performance or accuracy, however, it does lay bare, how simple a neural network really can be.  
+Note that this neural network is not meant to have high performance or accuracy, however, it does demonstrate how a neural network works under the hood.  
 Feel free to clone this repo and expirement yourself.
